@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Central</a></li>
+        <li><a href="#">State</a></li>
+        <li><a href="#">Local</a></li>
+      </ul>
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group input-group">
+          <input type="text" class="form-control" placeholder="Search..">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">
+              <span class="glyphicon glyphicon-search"></span>
+            </button>
+          </span>        
+        </div>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-off"></span> Logout</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container text-center">    
+  <div class="row">
+  <div class="col-sm-4 well">
+    <div class=" well">
+              <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#demo">Politicians	<span class="badge">7</span></button>
+             <div id="demo" class="collapse">
+             <div class="well">
+    <img src="bird.jpg" class="img-circle" height="50" width="50" alt="Avatar">   <h><a href="#">User name</a></h>
+     </div>   
+  </div>
+             </div>
+                   <div class=" well">
+                 <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#demo1">Social Prestige	<span class="badge">7</span></button>
+                 <div id="demo1" class="collapse">
+                 <div class="well">
+     <img src="bird.jpg" class="img-circle" height="50" width="50" alt="Avatar">   <h><a href="#">User name</a></h>
+        
+    </div>
+  </div>
+      </div>
+      
+    </div>
+    <div class="col-sm-7">
+    
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="panel panel-default text-left">
+            <div class="panel-body">
+            <form>
+    <div class="form-group">
+     
+      <input type="text" class="form-control" id="usr" placeholder="Discuss Political Ideas and isues..">
+    </div>
+    
+  </form>
+             
+              <button type="button" class="btn btn-default btn-sm">
+                <span class="glyphicon glyphicon-bullhorn"></span> Post
+                <button type="button" class="btn btn-default btn-sm">
+                <span class="glyphicon glyphicon-picture"></span>Image
+              </button>   
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="well">
+           <p>User Name</p>
+           <img src="bird.jpg" class="img-circle" height="55" width="55" alt="Avatar">
+            <p>2017-02-04 20:06:54</p>
+          </div>
+        </div>
+        <div class="col-sm-9">
+          <div class="well">
+            <p>  {posted text aur post ka time and date isme dal} ..
+            Just Forgot that I had to mention something about someone to someone about how I forgot something, but now I forgot it. Ahh, forget it! Or wait. I remember.... no I don't.</p>
+             <button type="button" class="btn btn-default">Suggests	<span class="badge">7</span></button>
+             <button type="button" class="btn btn-danger btn-md" data-toggle="modal" data-target="#myModal">Speak Up In Oppose</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="col-sm-12">
+    
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="panel panel-default text-left">
+            <div class="panel-body">
+            <form>
+    <div class="form-group">
+     
+      <input type="text" class="form-control" id="usr" placeholder="Discuss Political Ideas and isues..">
+    </div>
+    
+  </form>
+             
+              <button type="button" class="btn btn-default btn-sm">
+                <span class="glyphicon glyphicon-bullhorn"></span> Post
+                <button type="button" class="btn btn-default btn-sm">
+                <span class="glyphicon glyphicon-picture"></span>Image
+              </button>   
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      
+    </div>
+  </div>
+            <br><br>
+            </div>
+            <br><br>
+            
+            <button type="button" class="btn btn-success">Support	<span class="badge">7</span></button>
+  <button type="button" class="btn btn-warning">Neutral	<span class="badge">7</span></button>
+  <button type="button" class="btn btn-danger">Oppose	<span class="badge">7</span></button>
+  <br>
+  <button type="button" class="btn btn-default">Graph</button>
+          </div>
+          
+        </div>
+      </div>
+      
+      
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="well">
+           <p>user name and profile</p>
+           <img src="bird.jpg" class="img-circle" height="55" width="55" alt="Avatar">
+         <p>2017-02-04 20:06:54</p>
+         </div>
+        </div>
+        <div class="col-sm-9">
+          <div class="well">
+            <p>posted text</p>
+            <div class="container">
+ 
+  
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="/w3images/lights.jpg" target="_blank">
+          <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
+          <div class="caption">
+            <p>posted image{if post me image he to isme image pass kar</p>
+          </div>
+        </a>
+        
+      </div>
+       <button type="button" class="btn btn-default">Suggests	<span class="badge">7</span></button>
+            <button type="button" class="btn btn-danger btn-md" data-toggle="modal" data-target="#myModal">Speak Up In Oppose</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="col-sm-12">
+    
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="panel panel-default text-left">
+            <div class="panel-body">
+            <form>
+    <div class="form-group">
+     
+      <input type="text" class="form-control" id="usr" placeholder="Discuss Political Ideas and isues..">
+    </div>
+    
+  </form>
+             
+              <button type="button" class="btn btn-default btn-sm">
+                <span class="glyphicon glyphicon-bullhorn"></span> Post
+                <button type="button" class="btn btn-default btn-sm">
+                <span class="glyphicon glyphicon-picture"></span>Image
+              </button>   
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      
+    </div>
+  </div>
+            <br><br>
+            </div>
+            <br><br>
+            
+            <button type="button" class="btn btn-success">Support	<span class="badge">7</span></button>
+  <button type="button" class="btn btn-warning">Neutral	<span class="badge">7</span></button>
+  <button type="button" class="btn btn-danger">Oppose	<span class="badge">7</span></button>
+  <button type="button" class="btn btn-default">Graph    </button>
+    </div>
+   
+
+          </div>
+        </div>
+      </div>     
+    </div>
+    
+<div class="row">
+        <div class="col-sm-3">
+          <div class="well">
+           <p>user name and profile</p>
+           <img src="bird.jpg" class="img-circle" height="55" width="55" alt="Avatar">
+           <p>2017-02-04 20:06:54</p>
+          </div>
+        </div>
+        <div class="col-sm-9">
+          <div class="well">
+          <p>posted text</p>
+            <div class="container">
+ 
+  
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="/w3images/lights.jpg" target="_blank">
+          <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
+          <div class="caption">
+            <p>posted image{if post me image he to isme image pass kar</p>
+          </div>
+        </a>
+        
+      </div>
+      <p>In Oppose Of</p>
+          <div class="panel panel-default">
+    <div class="panel-body">
+    
+    <div class="media">
+    <div class="media-left">
+      <img src="img_avatar1.png" class="media-object" style="width:60px">
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading">Purane vale post karne vale ka name</h4>
+      <p>Purane vale post ka text</p>
+      <div class="media-left">
+      <img src="img_avatar1.png" class="media-object" style="width:100px">
+    </div>
+    </div></div>
+    </div>
+    
+  </div>
+
+          
+          
+            
+       <button type="button" class="btn btn-default">Suggests	<span class="badge">7</span></button>
+           <button type="button" class="btn btn-danger btn-md" data-toggle="modal" data-target="#myModal">Speak Up In Oppose</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="col-sm-12">
+    
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="panel panel-default text-left">
+            <div class="panel-body">
+            <form>
+    <div class="form-group">
+     
+      <input type="text" class="form-control" id="usr" placeholder="Discuss Political Ideas and isues..">
+    </div>
+    
+  </form>
+             
+              <button type="button" class="btn btn-default btn-sm">
+                <span class="glyphicon glyphicon-bullhorn"></span> Post
+                <button type="button" class="btn btn-default btn-sm">
+                <span class="glyphicon glyphicon-picture"></span>Image
+              </button>   
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      
+    </div>
+  </div>
+            <br><br>
+            </div>
+            <br><br>
+            <button type="button" class="btn btn-success">Support	<span class="badge">7</span></button>
+  <button type="button" class="btn btn-warning">Neutral	<span class="badge">7</span></button>
+  <button type="button" class="btn btn-danger">Oppose	<span class="badge">7</span></button>
+  <br><br>
+  <button type="button" class="btn btn-default">Graph    </button>
+    </div>
+   
+
+          </div>
+        </div>
+      </div>     
+    </div>
+    
+    
+</body>
+</html>

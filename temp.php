@@ -1,0 +1,17 @@
+<?php
+session_start();
+?>
+<html>
+<head>
+<body>
+<?php
+           $pi=$_POST['pid'];
+		   $_SESSION['sp']=$pi;
+		   header("Location:comment.php");
+		   /*if(!empty($_GET["speak"]))
+		   header("Location:speakup.php");
+	       if(!empty($_GET["comment"]))*/
+?>
+</body>
+</head>
+</html>

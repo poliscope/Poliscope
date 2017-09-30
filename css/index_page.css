@@ -1,0 +1,104 @@
+body
+{
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    /*background-color: #11cdfe;*/
+
+  /*  background: #7FCEFF; /* For browsers that do not support gradients */
+  /*  background: -webkit-linear-gradient(left, #7FCEFF , #FFC56A); /* For Safari 5.1 to 6.0 */
+  /*  background: -o-linear-gradient(right, #7FCEFF , #FFC56A); /* For Opera 11.1 to 12.0 */
+  /*  background: -moz-linear-gradient(right, #7FCEFF , #FFC56A); /* For Firefox 3.6 to 15 */
+  /*  background: linear-gradient(to right, #7FCEFF , #FFC56A); /* Standard syntax (must be last) */
+
+  
+  
+  
+  
+  /* Fallback (could use .jpg/.png alternatively) */
+  background-color: red;
+
+  /* SVG fallback for IE 9 (could be data URI, or could use filter) */
+  background-image: url(fallback-gradient.svg); 
+
+  /* Safari 4, Chrome 1-9, iOS 3.2-4.3, Android 2.1-3.0 */
+  background-image:
+    -webkit-gradient(linear, left top, right top, from(#7FCEFF), to(#FFC56A));
+  
+  /* Safari 5.1, iOS 5.0-6.1, Chrome 10-25, Android 4.0-4.3 */
+  background-image:
+    -webkit-linear-gradient(left, #7FCEFF, #FFC56A);
+
+  /* Firefox 3.6 - 15 */
+  background-image:
+    -moz-linear-gradient(left, #7FCEFF, #FFC56A);
+
+  /* Opera 11.1 - 12 */
+  background-image:
+    -o-linear-gradient(left, #7FCEFF, #FFC56A);
+
+  /* Opera 15+, Chrome 25+, IE 10+, Firefox 16+, Safari 6.1+, iOS 7+, Android 4.4+ */
+  background-image:
+    linear-gradient(to right, #7FCEFF, #FFC56A);
+
+
+  
+  
+
+    /*overflow-y: hidden;*/
+    overflow-x: hidden;
+    position: relative;
+}
+
+#container_images
+{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+#forms
+{
+    width: 100%;
+}
+label {
+    color: #555;
+
+    font-size: 14px;
+}
+
+div.log{
+    /*border-style: solid;*/
+}
+
+div.sign{
+    /*border-style: solid;*/
+}
+
+#sign_up
+{
+    text-align: -webkit-center;
+    /*top: 45%;
+    left: 20px;
+    width: 40%;
+    height: auto;
+    margin: 10px;
+    border-color: black;
+    text-align: center;*/
+}
+#login
+{
+    text-align: -webkit-center;
+    /*top: 45%;
+    right: 20px;
+    width: 40%;
+    height: auto;
+    margin: 10px;
+    /*border-color: black;
+    text-align: center;*/
+
+}
+
+.register_title {
+  font-family: 'Raleway' , sans-serif;
+  color: white;
+  margin-bottom: 50px;
+}

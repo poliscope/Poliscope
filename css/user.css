@@ -1,0 +1,98 @@
+.leftcol {
+    margin-top: 80px;
+    float: left;
+    width:21.7%;
+    height: 100%;
+    background-color: #edf5ec;
+    position: fixed;
+    /*box-shadow: 3px 3px 5px #4B546A;*/
+
+
+}
+.centercol {
+    margin-top: 80px;
+    width: 56%;
+    margin-left: 22%;
+    float: left;
+    background-color: #FFFFFF;
+    height: 100%;
+    display: inline;
+
+}
+.rightcol {
+    margin-top: 80px;
+    float: right;
+    width: 21.7%;
+    height: 100%;
+    background-color: #edf5ec;
+    position: fixed;
+    right: 0px;
+    /*box-shadow: -3px -3px 5px #4B546A;*/
+
+}
+
+
+.propic{
+    /*margin-top: %;*/
+    width: 150px;
+    height: 150px;
+}
+.pic {
+    border: 2px solid #fff;
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin-top: 15px;
+    margin-left: 25%;
+    overflow: hidden;
+    /*-webkit-box-shadow: 2px 2px 2px #111;*/
+    /*box-shadow: 3px 3px 3px #111;*/
+}
+/*.morph{*/
+    /*border-radius: 50%;*/
+    /*-webkit-transition: all 0.3s ease;*/
+    /*-moz-transition: all 0.3s ease;*/
+    /*-o-transition: all 0.3s ease;*/
+    /*-ms-transition: all 0.3s ease;*/
+    /*transition: all 0.3s ease;*/
+/*}*/
+/*.morph:hover{*/
+    /*border-radius: 0%;*/
+    /*-webkit-transform: rotate(360deg);*/
+    /*-moz-transform: rotate(360deg);*/
+    /*-o-transform: rotate(360deg);*/
+    /*-ms-transform: rotate(360deg);*/
+    /*transform: rotate(360deg);*/
+    /*!*border-radius: 50%;*!*/
+
+/*}*/
+
+.linfo{
+    position: absolute;
+    top: 25%;
+    margin-left: 15px;
+}
+.minfo{
+    /*position: absolute;*/
+    /*top: 25%;*/
+    margin-left: 15px;
+}
+.name{
+    /*padding: 5%;*/
+
+}
+
+.coverpic{
+    margin-top: 1px;
+    width: 755px;
+    height: 200px;
+}
+
+.button{
+    margin: 30px;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+}
